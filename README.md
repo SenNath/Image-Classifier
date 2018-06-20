@@ -49,7 +49,11 @@ Large-scale Image Recognition using a variation of VGG NET.
  • Used early stopping using the validation set with a patience of 5 epochs. 
 
  • Code requires following inputs: 
+  
   – --lr (initial learning rate η for gradient descent based algorithms)
+  
   – --batch size (the batch size to be used - valid values are 1 and multiples of 5) 
+  
   – --init (the initialization method to be used - 1 for Xavier, 2 for He) 
+  
   – --save dir (the directory in which the pickled model should be saved - by model we mean all the weights and biases of the network)
