@@ -38,11 +38,11 @@ Large-scale Image Recognition using a variation of VGG NET.
 
  • For all convolution layers, stride S = 1, padding P = 1 
 
- • All layers, except for the pooling layers and for the last (softmax-)layer should use ReLU-nonlinearities. 
+ • All layers, except for the pooling layers and for the last (softmax-)layer uses ReLU-nonlinearities. 
 
  • Network is trained using Adam with momentum using 45000 randomly sampled examples from the training dataset. The remaining 5000 examples is used for validation. 
 
- • Use batch-normalization on the last layer activations (immediately before computing the softmax) when training the network. 
+ • Batch-normalization is used on the last layer activations (immediately before computing the softmax) when training the network. 
 
  • Diﬀerent parameter initializations like Xavier, He etc. is used to ﬁnd settings that are stable and yield good solutions. 
 
